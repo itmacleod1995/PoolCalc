@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pool Calculator</title>
     <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Montserrat:wght@300&family=Poppins&family=Roboto&family=Roboto+Condensed:wght@300&display=swap"
+        rel="stylesheet">
     <script src="script.js"></script>
 </head>
 
@@ -14,12 +17,35 @@
 
     <h1>Massad YMCA Indoor Pool Chem Calculator</h1>
 
-    <div class="mainContent">
+    <div class="mainContentwell">
+        <h3 class="pool">wellness pool</h3>
         <div class="wellness">
-            <h3 class="pool">wellness pool: 200,000 Gallons</h3>
             <div class="name">
-                <label for="chemName">Name of the Chemical: </label>
-                <input type="text" name="chemName" id="chemName">
+                <label for="chemNamewel">Name of the Chemical: </label>
+                <input type="text" name="chemNamewel" id="chemNamewel">
+            </div>
+
+            <div class="level">
+                <label for="currLevelwel">Current Level: </label>
+                <input type="text" name="currLevelwel" id="currwel">
+            </div>
+
+            <button class="button-12">Calculate</button>
+
+            <div class="result">
+                <label for="chemNeeded">Add the following amount:<span.res> N/A</span></label>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="mainContentex">
+        <h3 class="pool">Exercise Pool</h3>
+        <div class="exercise">
+            <div class="name">
+                <label for="chemNameEx">Name of the Chemical: </label>
+                <input type="text" name="chemNameEx" id="chemNameEx">
             </div>
 
             <div class="level">
