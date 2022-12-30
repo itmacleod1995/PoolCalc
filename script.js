@@ -7,7 +7,7 @@ function calc() {
         var change = document.getElementById("desiredChange").value;
         var result = document.getElementById("res");
 
-        var x = (1.4 * 22 * (change / 10)).toFixed(2);
+        var x = (1.4 * 20 * (change / 10)).toFixed(2);
         result.textContent = x + "lbs of bicarb";
     }
 }
