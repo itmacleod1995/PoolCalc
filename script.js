@@ -3,7 +3,7 @@ function calc() {
     /**
      * Calculate Bicarbonate level with the assumption that you want it at 100
      */
-    if (chem == "bicarb" || chem == "sodium bicarbonate") {
+    if (chem == "bicarb" || chem == "Sodium Bicarbonate") {
         var ideal = document.getElementById("ideal");
         ideal.textContent = "Ideal: 80-120 ppm"
         var change = document.getElementById("desiredChange").value;
