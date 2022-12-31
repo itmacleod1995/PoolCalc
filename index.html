@@ -18,14 +18,13 @@
 
     <div class="mainContentwell">
         <h3 class="pool">wellness pool</h3>
-        <span id="ideal"></span>
+        <span id="ideal">Ideal range:</span>
         <div class="wellness">
             <div class="name">
                 <label for="chemNamewel">Name of the Chemical: </label>
                 <input type="text" list="chemList" name="chemNamewel" id="chemNamewel">
                 <datalist id="chemList">
                     <option>Sodium Bicarbonate</option>
-
                 </datalist>
             </div>
 
@@ -38,13 +37,13 @@
 
             <div class="desired">
                 <label for="currLevelwel">Desired Chemical Change: </label>
-                <input type="text" name="desiredChange" id="desiredChange">
+                <input type="number" name="desiredChange" id="desiredChange" min=10 max=100 step=10>
             </div>
 
             <button onclick="calc()" class="button-12">Calculate</button>
 
             <div class="resultwel">
-                <label for="chemNeededwel">Add the following amount:<span id="res"> N/A</span></label>
+                <label for="chemNeededwel">Add the following amount: <span id="res"> N/A</span></label>
             </div>
 
 
