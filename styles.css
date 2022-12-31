@@ -75,6 +75,7 @@ h1 {
     justify-content: space-evenly;
     font-size: 20px;
     margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .wellness, .exercise {
